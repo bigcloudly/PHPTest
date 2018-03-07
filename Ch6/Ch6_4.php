@@ -32,7 +32,7 @@ if (isset($_POST["send"])) {
 <form method = "post" action = "">
 	<p>
 	<label for = "user">使用者帳號：</label>
-	<input type = "text" name = "user" id = "user" value = "<?php echo $user ?>">
+	<input type = "text" name = "user" id = "user" value = "<?php echo $user ?>"/>
 	</p>
 	<p>
 	<label for = "pass">使用者密碼：</label>
